@@ -1,0 +1,20 @@
+{
+	"type":"crafting_shaped",
+ 	"pattern":[
+  		"!!!",
+  		"!@!",
+  		"!!!"
+ 	],
+ 	"key":{
+  		"!":{
+   			"item":"minecraft:nether_wart_block"
+          },
+        "@":{
+            "item":"minecraft:gold_ingot"
+        }
+ 	},
+ 	"result":{
+	  	"item":"minecraft:music_disc_pigstep",
+ 	 	"count":1
+ 	}
+}
