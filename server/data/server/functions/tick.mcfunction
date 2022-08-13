@@ -5,6 +5,7 @@ function server:qd
 function server:menu
 function server:synchronize
 function server:special_items/tick
+function server:special_effect/tick
 execute as @a run scoreboard players enable @s qd
 execute as @a run scoreboard players enable @s menu
 execute as @a run scoreboard players enable @s SPI_access
