@@ -27,6 +27,7 @@ scoreboard objectives add SPI_num trigger
 scoreboard objectives add SPI_access_l dummy
 scoreboard objectives add SPI_num_l dummy
 scoreboard objectives add server_fun_rotate dummy
+scoreboard objectives add lottery trigger
 function server:num_set
 function server:random/init
 tellraw @a {"text":"服务器已重新加载，若卡住不动请重新登录","color":"green"}

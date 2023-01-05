@@ -6,10 +6,12 @@ function server:menu
 function server:synchronize
 function server:special_items/tick
 function server:special_effect/tick
+function server:lottery/tick
 execute as @a run scoreboard players enable @s qd
 execute as @a run scoreboard players enable @s menu
 execute as @a run scoreboard players enable @s SPI_access
 execute as @a run scoreboard players enable @s SPI_num
+execute as @a run scoreboard players enable @s lottery
 execute as @a[scores={rightclick=1..}] at @s run function server:rightclick
 #主城下方区域检测
 #7755 255 1538
