@@ -9,5 +9,7 @@ execute as @s if score square server_random matches 4001..6000 run tellraw @s [{
 execute as @s if score square server_random matches 4001..6000 run give @s enchanted_golden_apple 64
 execute as @s if score square server_random matches 6001..8000 run tellraw @s [{"text": "恭喜获得下届合金块*10","color": "yellow"}]
 execute as @s if score square server_random matches 6001..8000 run give @s netherite_block 10
-execute as @s if score square server_random matches 8001..10000 run tellraw @s [{"text": "恭喜获得2卷积分*10","color": "yellow"}]
-execute as @s if score square server_random matches 8001..10000 run scoreboard players add @s player_score_2 10
+execute as @s if score square server_random matches 8001..9500 run tellraw @s [{"text": "恭喜获得2卷积分*10","color": "yellow"}]
+execute as @s if score square server_random matches 8001..9500 run scoreboard players add @s player_score_2 10
+execute as @s if score square server_random matches 9501..10000 run tellraw @s [{"text": "恭喜获得神秘药水*10","color": "yellow"}]
+execute as @s if score square server_random matches 9501..10000 run give @s minecraft:potion{display:{Name:'"神秘药水"',Lore:['"活动物品"']},CustomPotionEffects:[{Ambient:false,Amplifier:4,Duration:400,ShowIcon:true,ShowParticles:true,Id:2b},{Ambient:false,Amplifier:10,Duration:400,ShowIcon:true,ShowParticles:true,Id:5b},{Ambient:false,Amplifier:10,Duration:5,ShowIcon:true,ShowParticles:true,Id:6b},{Ambient:false,Amplifier:4,Duration:400,ShowIcon:true,ShowParticles:true,Id:10b},{Ambient:false,Amplifier:4,Duration:400,ShowIcon:true,ShowParticles:true,Id:11b},{Ambient:false,Amplifier:4,Duration:400,ShowIcon:true,ShowParticles:true,Id:12b},{Ambient:false,Amplifier:1,Duration:400,ShowIcon:true,ShowParticles:true,Id:13b},{Ambient:false,Amplifier:1,Duration:400,ShowIcon:true,ShowParticles:true,Id:16b},{Ambient:false,Amplifier:1,Duration:400,ShowIcon:true,ShowParticles:true,Id:24b},{Ambient:false,Amplifier:30,Duration:400,ShowIcon:true,ShowParticles:true,Id:17b}],HideFlags:63}
